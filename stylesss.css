@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+li {
+    list-style: none;
+    color: black;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    }
+
+    li:hover { 
+        color: #D21617;
+    }
+
+    #logo {
+    width: 100px;
+    height: auto;
+}
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;   
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 40px 100px;
+    color: #000;
+    font-size: 60px;
+    font-family:'Kdam Thmor Pro', sans-serif ;
+}
+
+.cards {
+    
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-position: 50% 50%;   
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 40px 100px;
+    color: #000;
+    font-size: 60px;
+    font-family:'Kdam Thmor Pro', sans-serif ;
+}
+
+
+
+
+.banner-1 {
+    background-image: url(https://static.wikia.nocookie.net/victoryroad/images/6/69/USUMArt_Alola.png/revision/latest/scale-to-width-down/1200?cb=20170819020743);
+}
+
+.banner-2 {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/32f60d4a-985d-448e-b3e0-df4ebe7791df/dbpyy93-ad0f6b0b-6f30-4d48-908e-e2384710c464.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzMyZjYwZDRhLTk4NWQtNDQ4ZS1iM2UwLWRmNGViZTc3OTFkZlwvZGJweXk5My1hZDBmNmIwYi02ZjMwLTRkNDgtOTA4ZS1lMjM4NDcxMGM0NjQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.pfj94DV1D64xU4UWiZN_K7ndUxiahZLcJnuK_C6Mbi0);
+}
+
+.banner-3 {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/753f95b6-8777-4a5f-9047-3135c69a5d5d/davubpn-8368ac89-b5c5-4f26-b78f-06f6997b29d8.png/v1/fill/w_1192,h_670/kahunas_of_alola__by_isuisei_davubpn-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MzkzNyIsInBhdGgiOiJcL2ZcLzc1M2Y5NWI2LTg3NzctNGE1Zi05MDQ3LTMxMzVjNjlhNWQ1ZFwvZGF2dWJwbi04MzY4YWM4OS1iNWM1LTRmMjYtYjc4Zi0wNmY2OTk3YjI5ZDgucG5nIiwid2lkdGgiOiI8PTcwMDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.kcFTcFmjFENRQk9ZYzmAibeKY_INzdlDtP9mOKwJ4Jk);
+}
+
+
+
+
+.cards-content{
+    grid-template-columns: 1fr;
+    margin-top: 150px;
+}
+
+.texto{
+    color: black;
+    font-size: 50px;
+    font-family:'Kdam Thmor Pro', sans-serif ;
+    position: absolute;
+    top: 100px; 
+    left: 750px;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}

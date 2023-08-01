@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+li {
+    list-style: none;
+    color: black;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    }
+
+    li:hover { 
+        color: #D21617;
+    }
+
+    #logo {
+    width: 100px;
+    height: auto;
+}
+
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: 50% 5%;   
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 10px 20px;
+    color: #000;
+    font-size: 30px;
+    font-family:'Kdam Thmor Pro', sans-serif ;
+}
+
+
+
+
+.banner-1 {
+    background-image: url(https://static.wikia.nocookie.net/pokepediabr/images/a/a2/Calem_em_X_e_Y.png/revision/latest?cb=20211008165808&path-prefix=pt-br);
+}
+
+.banner-2 {
+    background-image: url(https://static.wikia.nocookie.net/pokepediabr/images/e/ef/Nate_em_Black_2_e_White_2.png/revision/latest?cb=20211008165526&path-prefix=pt-br);
+}
+
+.banner-3 {
+    background-image: url(https://static.wikia.nocookie.net/pokemon/images/d/de/N_Black_and_White.png/revision/latest?cb=20151220155811)
+}
+
+.texto{
+    color: black;
+    font-size: 50px;
+    font-family:'Kdam Thmor Pro', sans-serif ;
+    position: absolute;
+    top: 100px; 
+    left: 600px;
+}
+
+.cards {
+    
+    background-size: cover;
+    background-position: 50% 50%;   
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 0px 20px;
+    color: #000;
+    font-size: 30px;
+    font-family:'Kdam Thmor Pro', sans-serif ;
+}
